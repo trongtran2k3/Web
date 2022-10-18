@@ -1,0 +1,70 @@
+body{
+    background-image: url('Bìa\ SEVEN.png');
+    background-size: cover;
+    background-position-y: -80px;
+
+}
+.wapper{
+    min-height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-name{
+    text-align: center;
+    color:aliceblue;
+    font-size: 35px;
+}
+.form-signup{
+    
+    width: 250px;
+    background-color: rgba(85, 85, 85, 0.8);
+    flex-grow: 1;
+    padding:50px 40px 60px;
+    box-shadow: 0 0 15px 20px rgba(197, 197, 197, 0.8);
+}
+.form-group{
+    text-align:left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+.form-group i{
+    color: #fff;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.form-input{
+    background: transparent;
+    color: white;
+    flex-grow: 1;
+    border:0;
+    outline :0;
+}
+
+.form-input::placeholder{
+    color:aliceblue;
+}
+.form-button{
+    width:100%;
+    background: transparent;
+    text-transform: uppercase;
+    color:white;
+    border:1px solid #ffff;
+    padding:6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top:30px;
+}
+.form-button:hover{
+    color:#ff0055;
+    border:1px solid #ff0055;
+}
+.form-button a{
+    text-decoration: none;
+    color:white;
+}
+.form-button a:hover{
+    color:#ff0055;
+}
+
